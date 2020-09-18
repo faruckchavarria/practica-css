@@ -33,4 +33,23 @@ cuando hablamos de selectores hablamos de los elementos que estan en html que qu
     text-align: center;
   }
  ```
- 
+ ### selector de clases CSS
+ De forma anterior al Id, que selecciona elementos especificos el selector class, lo podemos usar para seleccionar un atributo de clase especifico.
+
+ Para trabajarlo debemos de igual form trabajar en html y en css, primeramente en html crearemos la etiqueta, en mi caso usare un enunciado, donde dentro de la llave de apertura podemos colocar el nombre de la clase.
+ ```
+<h1 class="ejemplo">Ejemplo de la clase</h1>
+ ```
+ Donde ahora poder asignarles los valores en sus propiedades vamos al css y aplicamos lo siguiente:
+ ```
+ .ejemplo
+  {
+    color: darkblue;
+    text-align: center;
+  }
+ ```
+ # Comentarios
+ Como sabemos que para poder dar o hacer una explicacion del codigo existen, los comentarios los cuales son para documentar el codigo, para realizar comentarios en css usamos la siguiente estructura:
+ ```
+
+ ```
