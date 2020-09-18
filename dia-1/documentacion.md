@@ -51,5 +51,6 @@ cuando hablamos de selectores hablamos de los elementos que estan en html que qu
  # Comentarios
  Como sabemos que para poder dar o hacer una explicacion del codigo existen, los comentarios los cuales son para documentar el codigo, para realizar comentarios en css usamos la siguiente estructura:
  ```
-
+/* Esto es un comentario */
  ```
+Esto lo podemos ir desarrollando a lo largo del codigo para dar una mejor explicacion a los programadores sobre la funcionalidad del codigo.
