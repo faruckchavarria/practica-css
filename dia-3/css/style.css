@@ -40,3 +40,19 @@ p.six {
 border-style: double;
 border-width: thick;
 }
+
+/*Trabajamos colores de los bordes*/
+p.one {
+    border-style: solid;
+    border-color: red;
+  }
+  
+  p.two {
+    border-style: solid;
+    border-color: green;
+  } 
+  
+  p.three {
+    border-style: dotted;
+    border-color: blue;
+  } 
