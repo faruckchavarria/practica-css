@@ -9,3 +9,34 @@ p.outset {border-style: outset;}
 p.none {border-style: none;}
 p.hidden {border-style: hidden;}
 p.mix {border-style: dotted dashed solid double;}
+/*Trabajamos con al anchura de los bordes*/
+
+p.one{
+border-style: solid;
+border-width: 5px;
+}
+
+p.two {
+border-style: solid;
+border-width: medium;
+}
+
+p.three {
+border-style: dotted;
+border-width: 2px;
+}
+
+p.four {
+border-style: dotted;
+border-width: thick;
+}
+
+p.five {
+border-style: double;
+border-width: 15px;
+}
+
+p.six {
+border-style: double;
+border-width: thick;
+}

@@ -44,3 +44,4 @@ p.mix {border-style: dotted dashed solid double;}
 una ves hecho eso podemos mostrarlo en la pagina con cada una de los bordes ejemplificados.
 
 # Ancho del borde CSS
+con esta propiedad podemos especificar el ancho de cada uno de los bordes que vayamos a utilizar.
