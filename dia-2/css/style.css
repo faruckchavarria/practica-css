@@ -12,3 +12,8 @@
   body {
     background-image: url("1384063.png");
   }
+  /*usando la propiedad de no repertir el fondo*/
+  body {
+    background-image: url("1384063.png");
+    background-repeat: repeat-x;
+  }

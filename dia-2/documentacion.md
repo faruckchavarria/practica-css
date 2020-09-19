@@ -97,3 +97,12 @@ body {
   background-image: url("1384063.png");
 }
  ```
+
+ # Repetición de fondo CSS
+ En muchas ocasiones al colocar una imagen de fondo, por defecto en navegador al notar que los valores de el tamaño de la imagen se acaban, entonces comienza a repetir los valores o la misma imagen una y otra ves haciendo que no sea lo mas atractivo posible y es cuando se usa la siguiente propiedad para liberarnos de esta problematica.
+ ```
+body {
+  background-image: url("gradient_bg.png");
+  background-repeat: repeat-x;
+}
+ ```
