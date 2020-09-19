@@ -51,3 +51,49 @@ Se puede aplicar este efecto de color a las etiquetas de html, utilizando una fo
 <p>Ta chingon veda.</p>
 ```
 De esta forma podemos trabajar colores en RGB en las etiquetas de html.
+# Colores de saturacion  o colores css hsl
+
+Estos colores se pueden especificar usando tonos, saturacion y luminosidad, casi de una forma muy similar al de los colores RGB que se maneja atraves de una formula, a cual la podemos representar de la siguiente manera hsl ( tono , saturación , luminosidad ) bien una ves se haya mostrado la formula cabe resaltar que por cada una de las propiedades a modificar se debera usar % para modificar los valoresque van desde un 0% hasta un 100%
+```
+<h1 style="background-color:hsl(0, 100%, 50%);">hsl(0, 100%, 50%) Es como rojito</h1>
+<h1 style="background-color:hsl(240, 100%, 50%);">hsl(240, 100%, 50%) es como azulito</h1>
+<h1 style="background-color:hsl(147, 50%, 47%);">hsl(147, 50%, 47%) Es como verde menta</h1>
+<h1 style="background-color:hsl(300, 76%, 72%);">hsl(300, 76%, 72%) Es como rosa</h1>
+<h1 style="background-color:hsl(39, 100%, 50%);">hsl(39, 100%, 50%) Es como amarillo</h1>
+<h1 style="background-color:hsl(248, 53%, 58%);">hsl(248, 53%, 58%) Es como moradito</h1>
+```
+Si vamos colocando diferentes porcentaje en cada una de las lineas podemos ir modificando los colores.
+si queremos una explicacion y prueba de colores podemos visitar la siguente pagina:
+ <a href="https://www.w3schools.com/Css/css_colors_hsl.asp">Acceder a la página web</a>
+
+ # Fondos css
+Ya hemos trabajado con esta propiedad o esta etiqueta donde podemos mostrar ejemplos sencillos sobrela utilidad de esta etiqueta. podemos trabajar los colores de muchas foras incluso de las formas que habiamos practicado anteriormente como lo es en hexadecimal, con el nombre del color y con RGB
+
+En la siguiente etiqueta hare que todo el body donde he estado trabajando tenga un fondo en general:
+```
+body {
+  background-color: lightblue;
+}
+```
+de esta forma le doy un fondo muy diferente a la pagina en el fondo, de lo mas comun como lo es un fondo blanco, ahora puedo modificarlo de la manera que desee.
+
+ de igual forma podemos poner un fondo a cualquiera de las de las etiquetas que contiene nuestro HTML, use como referencia a el Body, pero funciona con cualquiera.
+
+ # Opacidad / Transparencia
+ Tambien podemos aplicar transparencia a dichos fondos utilizando los mismos argumentos y añadiendo la propiedad opacity. Como se ve acontinuacion:
+ ```
+body {
+  background-color: lightblue;
+  opacity: 0.3;
+}
+ ```
+ ¿Pero que es ese 0.3 que despues de la propiedad?, sencillo podemos trabajar en un rango de 0.1 hasta 1 donde el numero 1 sera la pureza del fondo y mientras mas se acerce al cero, esta sera mas opaca.
+
+ # Imagen de fondo CSS
+
+ Al igual que una fondo de color, podemos colocar una imagen, la que nosotros deseemos de  fondo en nuestra pagina lo podemos realizar mandando a llamar una imagen de nuesto ordenador o servidor local.
+ ```
+body {
+  background-image: url("1384063.png");
+}
+ ```
