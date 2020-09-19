@@ -101,8 +101,37 @@ body {
  # Repetición de fondo CSS
  En muchas ocasiones al colocar una imagen de fondo, por defecto en navegador al notar que los valores de el tamaño de la imagen se acaban, entonces comienza a repetir los valores o la misma imagen una y otra ves haciendo que no sea lo mas atractivo posible y es cuando se usa la siguiente propiedad para liberarnos de esta problematica.
  ```
-body {
-  background-image: url("gradient_bg.png");
-  background-repeat: repeat-x;
-}
+  body {
+    background-image: url("1384063.png");
+    background-repeat: repeat-x;
+  }
  ```
+ Podemos hacer prueba de lo mismo, en la siguiente pagina: <a href="https://www.w3schools.com/Css/tryit.asp?filename=trycss_background-image_gradient2">Acceder a la página web</a>
+
+ # Archivo adjunto de fondo CSS
+ 
+ Cuando hablamos de archivo adjunto en el fondo del css hablamos que si la imagen que vamos a colocar en fondo sea estatica al momento de scrollear, tanto arriba como hacia abajo o deseamos que sea dinamica que se puede mover mediante el scroll, para ello existen las 2 etiquetas con propiedades que nos ayudaran en resolver estas necesidades.
+
+ Primerp que usaremos sera el que nos permite dejar la imagen estatica, usando la siguiente propiedad dentro detro de los valores de la etiqueta de el body:
+ ```
+body {
+    background-image: url("1384063.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+  }
+ ```
+ Usamos las mismas propiedades del ejemplo anterior donde podemos analizar que se le agrego la ultima propiedad para lograr quedar de manera estatica la imagen de fondo.
+ ##### Ahora usaremos el dinamico o scroll
+
+ Este ser para que se pueda mover mediante nos deslizamos arriba y hacia abajo, lo usaremos con la siguiente propiedad.
+ ```
+  body {
+    background-image: url("1384063.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+  }
+ ```
+ Con esta etiqueta podemos lograr que se pueda hacer una deslizamiento de arriba a bajo y que la imagen de abajo sea capaz de moverse en el scroll que realicemos.
+ 

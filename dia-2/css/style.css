@@ -17,3 +17,17 @@
     background-image: url("1384063.png");
     background-repeat: repeat-x;
   }
+  /*  haciendo uso de archivo adjunto de una imagen de fondo*/
+  body {
+    background-image: url("1384063.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+  }
+  /* Trabajamos con archivo adjunto de manera scroll*/
+  body {
+    background-image: url("1384063.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+  }
